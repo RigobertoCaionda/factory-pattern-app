@@ -1,8 +1,8 @@
-FACTORY PATTERN APP
+# FACTORY PATTERN APP
 This project is aimed at creating a simple code using the factory design pattern.
 The Factory design pattern is a pattern that is used to separate the object creation logic from the class that creates the objects, thus making the code more flexible.
 
-Prerequisites
+# Prerequisites
 Node.js (https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 npm or Yarn
 Installation
@@ -16,7 +16,7 @@ Now you can run the file Main.js to see the results:
 node Main.js
 If everything went well up to this point, you'll have somethings printed in the command prompt.
 
-Project Structure
+# Project Structure
 This is the folder structure of this project:
 
 src/: It has the main source code of the application.
@@ -26,7 +26,7 @@ FinancilReport.js: A class with a Financial Report logic.
 InventoryReport.js: A class with a Inventory Report logic.
 SalesReport.js: A class with a Sales Report logic.
 
-Code Example:
+# Code Example:
 This is the ReportFacotry.js file:
 "use strict";
 
@@ -74,8 +74,8 @@ const financialReport = ReportFactory.createReport({
 financialReport?.generate();
 
 
-Credits
+# Credits
 This project was developed by Rigoberto Caionda.
 
-Contact
+# Contact
 If you have any questions or suggestions, please contact via email rigobertocaionda98@gmail.com or via my github page https://github.com/RigobertoCaionda
